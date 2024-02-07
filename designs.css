@@ -5,6 +5,116 @@
 }
 
 .content {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
+    background-image: linear-gradient(to right, rgb(99, 195, 251) , rgb(100, 17, 208));
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
   }
+
+td, th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.btn-group button {
+    background-color: #00eaff; 
+    border: 1px green; 
+    font-size: 100%;
+    font-family: Century Gothic;
+    color: rgb(0, 0, 0); 
+    padding: 15px 30px; 
+    cursor: pointer; 
+    float: center; 
+    top: 1.5%;
+    margin: 2px -2px;
+    
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.btn-group button:not(:last-child) {
+    border-right: none; 
+}
+  
+.btn-group button:hover {
+    background-color: #2919dc;
+}
+
+.opac {
+    padding: 0.5%;
+    background: rgba(255, 139, 195, 0.583);
+}
+
+figure > img {
+    border-radius: 50%;
+}
+
+hr { 
+    display: block;
+    border-style:ridge;
+    border-width: 3px;
+}
+
+body {
+    background-image: url("/Portfolio/pictures/bg4.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.button {
+    position: relative;
+    background-color: #fa85b8;
+    border: none;
+    font-size: 28px;
+    color: #000000;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+  
+.button:after {
+    content: "";
+    background: #d70567;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+  
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
