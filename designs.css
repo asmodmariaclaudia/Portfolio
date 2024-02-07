@@ -35,14 +35,14 @@ td, th {
 .btn-group button {
     background-color: #00eaff; 
     border: 1px green; 
-    font-size: 100%;
+    font-size: 150%;
     font-family: Century Gothic;
     color: rgb(0, 0, 0); 
     padding: 15px 30px; 
     cursor: pointer; 
     float: center; 
     top: 1.5%;
-    margin: 2px -2px;
+    margin: 2px -3px;
     
 }
 
@@ -92,7 +92,7 @@ body {
     padding: 15px;
     width: 150px;
     text-align: center;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     text-decoration: none;
     overflow: hidden;
